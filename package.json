@@ -1,0 +1,40 @@
+{
+  "name": "sys-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "0.24.0",
+    "element-ui": "2.15.12",
+    "file-saver": "^2.0.5",
+    "js-cookie": "3.0.1",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.1"
+  },
+  "keywords": [
+    "vue",
+    "element-ui"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "less": "^4.0.0",
+    "less-loader": "^8.0.0",
+    "prettier": "^2.4.1",
+    "sass": "1.32.13",
+    "sass-loader": "10.1.1",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
